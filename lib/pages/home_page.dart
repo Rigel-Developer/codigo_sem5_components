@@ -1,5 +1,6 @@
-import 'package:codigo_sem5_components/pages/alert.page.dart';
+import 'package:codigo_sem5_components/pages/alert_page.dart';
 import 'package:codigo_sem5_components/pages/avatar_page.dart';
+import 'package:codigo_sem5_components/pages/card_page.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -55,12 +56,17 @@ class HomePage extends StatelessWidget {
               _ItemDetail(
                 title: "Avatar",
                 subtitle: "Ir al detalle del avatar 0",
-                toPage: AvatarPage(),
+                toPage: const AvatarPage(),
               ),
               _ItemDetail(
                 title: "Alert",
                 subtitle: "Ir al detalle del avatar 1",
-                toPage: AlertPage(),
+                toPage: const AlertPage(),
+              ),
+              _ItemDetail(
+                title: "Card",
+                subtitle: "Ir al detalle del avatar 1",
+                toPage: const CardPage(),
               ),
             ],
           ),
@@ -72,7 +78,6 @@ class HomePage extends StatelessWidget {
 
 class _ItemDetail extends StatelessWidget {
   _ItemDetail({
-    super.key,
     required this.title,
     required this.subtitle,
     required this.toPage,

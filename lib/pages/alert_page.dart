@@ -69,7 +69,7 @@ class AlertPage extends StatelessWidget {
               const SizedBox(
                 height: 8,
               ),
-              Row(
+              const Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Icon(

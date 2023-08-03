@@ -22,7 +22,7 @@ class AvatarPage extends StatelessWidget {
             )
           ],
         ),
-        body: Column(
+        body: const Column(
           children: [
             FadeInImage(
               image: NetworkImage(
@@ -31,7 +31,7 @@ class AvatarPage extends StatelessWidget {
               placeholder: AssetImage(
                 "assets/images/loading.gif",
               ),
-              fadeInDuration: const Duration(milliseconds: 200),
+              fadeInDuration: Duration(milliseconds: 200),
             ),
           ],
         )
