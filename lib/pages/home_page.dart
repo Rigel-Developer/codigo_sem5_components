@@ -1,6 +1,10 @@
 import 'package:codigo_sem5_components/pages/alert_page.dart';
 import 'package:codigo_sem5_components/pages/avatar_page.dart';
 import 'package:codigo_sem5_components/pages/card_page.dart';
+import 'package:codigo_sem5_components/pages/grid_page.dart';
+import 'package:codigo_sem5_components/pages/input_page.dart';
+import 'package:codigo_sem5_components/pages/list_page.dart';
+import 'package:codigo_sem5_components/pages/selection_page.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -67,6 +71,26 @@ class HomePage extends StatelessWidget {
                 title: "Card",
                 subtitle: "Ir al detalle del avatar 1",
                 toPage: const CardPage(),
+              ),
+              _ItemDetail(
+                title: "Input",
+                subtitle: "Ir al detalle del avatar 1",
+                toPage: const InputPage(),
+              ),
+              _ItemDetail(
+                title: "Selection",
+                subtitle: "Ir al detalle del avatar 1",
+                toPage: const SelectionPage(),
+              ),
+              _ItemDetail(
+                title: "List",
+                subtitle: "Ir al detalle del avatar 1",
+                toPage: const ListPage(),
+              ),
+              _ItemDetail(
+                title: "Grid",
+                subtitle: "Ir al detalle del avatar 1",
+                toPage: const GridPage(),
               ),
             ],
           ),
